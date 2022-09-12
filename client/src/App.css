@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+  background: #eee;
+}
+.app{
+    max-width: 900px;
+    margin: 0 auto;
+      background: #fff;
+
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #3B5899;
+    color: white;
+    border-bottom: 5px solid #dfe3ee;
+    padding: 20px 20px;
+}
+
+.header_right{
+    display: flex;
+    flex-direction: column;
+}
+.header_right a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.skill{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 6px solid #dfe3ee;;
+}
+
+.keyinterest h3{
+    font-weight: 400;
+    color: #3B5899;
+    font-size: 1.7rem;
+}
+.keyinterest li{
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+
+.education ,.internships,.projects{
+    padding: 20px;
+    border-bottom: 6px solid #dfe3ee;;
+}
+.education h3 ,.projects h3 ,.internships h3{
+    font-weight: 600;
+    color: #3B5899;
+    font-size: 1.7rem;
+}
+.intership, .project{
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+.company{
+    color: #8A9CC7;
+    font-weight: 700;
+    margin-right: 5px;
+}
+.project li{
+    padding: 10px;
+}
+
+.intership li{
+    padding: 10px;
+}
+
